@@ -18,11 +18,19 @@ export PATH=$PATH:/usr/local/go/bin:$GOPATH:$GOBIN:$PKG_CONFIG_PATH
 # Git
 alias gilog="git --no-pager log --oneline -20"
 alias gista="git status"
-# Git Project Dir
-alias mygit="cd ~/go/src/github.com/isfanazha"
-alias tkpgit="cd ~/go/src/github.com/tokopedia"
+alias gibra="git --no-pager branch"
+alias gibrarem="git --no-pager branch -r"
+alias giche="git checkout"
+alias gife="git fetch"
+alias gipul="git pull"
+alias giremas="git rebase origin/master"
+alias gipus="git push"
+alias gires="git reset --soft HEAD~1"
+
 # Others
 alias c="clear"
-
+alias pingo="ping google.com"
+alias cat='bat --paging=never'
+`
 # PKG Config
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
