@@ -7,7 +7,8 @@ source $ZSH/oh-my-zsh.sh
 # Golang
 export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
-export GO111MODULE=off
+alias gomodon="export GO111MODULE=on"
+alias gomodof="export GO111MODULE=off"
 
 # Other
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
@@ -28,9 +29,10 @@ alias gipus="git push"
 alias gires="git reset --soft HEAD~1"
 
 # Others
-alias c="clear"
 alias pingo="ping google.com"
 alias cat='bat --paging=never'
-`
+alias ohmyzsh="mate ~/.oh-my-zsh"
+alias c="clear"
+
 # PKG Config
 export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
